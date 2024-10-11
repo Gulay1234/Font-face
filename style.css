@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containeer{
+    width: 100vw;
+    height: 100vh;
+}
+.container2{
+    width: 88vw;
+    height: 70vh;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 40vw;
+    height: 70vh;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+#p1{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 35px;
+    line-height: 28px;
+}
+.item2{
+    width: 60vw;
+    height: 60vh;
+    background-image: url(./Frame\ 2216\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.item3{
+    width: 60vw;
+    height: 60vh;
+    background-image: url(./Frame\ 2205\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: font;
+    src: url(./Rusillaserif-Light.ttf);
+}
+@font-face {
+    font-family: chonky;
+    src: url(./KGSecondChancesSolid.ttf);
+}
+h1{
+    font-family: font;
+}
+#p1{
+    font-family: chonky;
+}
